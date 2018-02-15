@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="iQ7-sm-UvP">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Repositories View Controller-->
+        <scene sceneID="6lf-U3-OF0">
+            <objects>
+                <viewController id="iQ7-sm-UvP" customClass="RepositoriesViewController" customModule="RxAlamofireExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="0nv-qz-RfX">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <searchBar contentMode="redraw" translatesAutoresizingMaskIntoConstraints="NO" id="CmF-1p-RXW">
+                                <rect key="frame" x="0.0" y="20" width="375" height="56"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </searchBar>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="BsX-sa-6ws">
+                                <rect key="frame" x="0.0" y="76" width="375" height="591"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="BsX-sa-6ws" firstAttribute="leading" secondItem="GZH-wb-2DB" secondAttribute="leading" id="IOd-0k-7KO"/>
+                            <constraint firstItem="CmF-1p-RXW" firstAttribute="trailing" secondItem="GZH-wb-2DB" secondAttribute="trailing" id="Oez-U4-K7G"/>
+                            <constraint firstItem="CmF-1p-RXW" firstAttribute="leading" secondItem="GZH-wb-2DB" secondAttribute="leading" id="OoN-tX-XFV"/>
+                            <constraint firstItem="BsX-sa-6ws" firstAttribute="top" secondItem="CmF-1p-RXW" secondAttribute="bottom" id="YWK-LF-h3y"/>
+                            <constraint firstItem="GZH-wb-2DB" firstAttribute="trailing" secondItem="BsX-sa-6ws" secondAttribute="trailing" id="bxZ-xk-fKQ"/>
+                            <constraint firstItem="GZH-wb-2DB" firstAttribute="bottom" secondItem="BsX-sa-6ws" secondAttribute="bottom" id="dHR-Sb-5n8"/>
+                            <constraint firstItem="CmF-1p-RXW" firstAttribute="top" secondItem="GZH-wb-2DB" secondAttribute="top" id="iYq-SY-xGN"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="GZH-wb-2DB"/>
+                    </view>
+                    <connections>
+                        <outlet property="searchBar" destination="CmF-1p-RXW" id="37M-hR-fWp"/>
+                        <outlet property="tableView" destination="BsX-sa-6ws" id="L9Z-ev-4KV"/>
+                        <outlet property="tableViewBottomConstraint" destination="dHR-Sb-5n8" id="UKa-oa-FWm"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lNd-Xi-JJA" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>

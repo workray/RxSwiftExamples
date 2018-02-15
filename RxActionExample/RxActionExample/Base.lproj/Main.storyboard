@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="y80-bu-rRN">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Register form-->
+        <scene sceneID="Rcb-vR-YfV">
+            <objects>
+                <viewController id="Lc7-Bz-TH1" customClass="ViewController" customModule="RxActionExample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="PFy-bI-8n7"/>
+                        <viewControllerLayoutGuide type="bottom" id="97x-dA-UVp"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4or-zu-Uf2">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="equalSpacing" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="FjI-0b-7nZ">
+                                <rect key="frame" x="87.5" y="208.5" width="200" height="250"/>
+                                <subviews>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Login" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="7HS-w2-BIt">
+                                        <rect key="frame" x="25" y="0.0" width="150" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="150" id="2iq-cW-gAb"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="sqg-Ml-3wd">
+                                        <rect key="frame" x="25" y="55" width="150" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Repeat password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="VwP-Fk-cB1">
+                                        <rect key="frame" x="25" y="110" width="150" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="E-mail" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="f2y-pw-sqk">
+                                        <rect key="frame" x="25" y="165" width="150" height="30"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <textInputTraits key="textInputTraits"/>
+                                    </textField>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="VTH-2D-ac1">
+                                        <rect key="frame" x="71.5" y="220" width="57" height="30"/>
+                                        <state key="normal" title="Register"/>
+                                    </button>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="200" id="1Fm-PK-cWP"/>
+                                    <constraint firstItem="VwP-Fk-cB1" firstAttribute="width" secondItem="sqg-Ml-3wd" secondAttribute="width" id="5nR-63-WJ7"/>
+                                    <constraint firstAttribute="height" constant="250" id="KPb-9p-ZA4"/>
+                                    <constraint firstAttribute="width" constant="100" id="PKb-xy-IiI"/>
+                                    <constraint firstItem="sqg-Ml-3wd" firstAttribute="width" secondItem="7HS-w2-BIt" secondAttribute="width" id="Rjw-ab-VGn"/>
+                                    <constraint firstItem="f2y-pw-sqk" firstAttribute="width" secondItem="sqg-Ml-3wd" secondAttribute="width" id="umm-jt-3Ws"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="PKb-xy-IiI"/>
+                                    </mask>
+                                </variation>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="FjI-0b-7nZ" firstAttribute="centerX" secondItem="4or-zu-Uf2" secondAttribute="centerX" id="c6G-8T-CFz"/>
+                            <constraint firstItem="FjI-0b-7nZ" firstAttribute="centerY" secondItem="4or-zu-Uf2" secondAttribute="centerY" id="oXJ-Fh-jjQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="aLT-GQ-6qE"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="Register form" id="1Hc-SB-wSz"/>
+                    <connections>
+                        <outlet property="registerButton" destination="VTH-2D-ac1" id="10e-Iu-HwG"/>
+                        <outlet property="stackView" destination="FjI-0b-7nZ" id="WDj-Mq-Bsq"/>
+                        <outletCollection property="formFields" destination="7HS-w2-BIt" collectionClass="NSMutableArray" id="1h7-1A-qzp"/>
+                        <outletCollection property="formFields" destination="sqg-Ml-3wd" collectionClass="NSMutableArray" id="cdU-co-Iob"/>
+                        <outletCollection property="formFields" destination="VwP-Fk-cB1" collectionClass="NSMutableArray" id="NbI-JP-tQB"/>
+                        <outletCollection property="formFields" destination="f2y-pw-sqk" collectionClass="NSMutableArray" id="hpf-sC-PXZ"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="y82-gq-QGO" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1447.2" y="998.95052473763121"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="NBt-dZ-SQM">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="y80-bu-rRN" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="YT9-Pw-sYK">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="Lc7-Bz-TH1" kind="relationship" relationship="rootViewController" id="ydF-UT-dW0"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5p1-cb-NOc" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="678" y="999"/>
+        </scene>
+    </scenes>
+</document>

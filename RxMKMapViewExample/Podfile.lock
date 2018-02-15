@@ -1,0 +1,19 @@
+PODS:
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxMKMapView (4.0.0):
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+
+DEPENDENCIES:
+  - RxMKMapView
+
+SPEC CHECKSUMS:
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxMKMapView: 5cd47305a35e6dbf8bceb7713280060950203188
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+
+PODFILE CHECKSUM: bd225fab1b803be3c401e90e4c036bb2ebaa6c29
+
+COCOAPODS: 1.4.0

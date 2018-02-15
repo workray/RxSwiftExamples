@@ -1,0 +1,26 @@
+PODS:
+  - Differentiator (3.0.2)
+  - NSObject+Rx (4.2.0):
+    - RxSwift (~> 4.0)
+  - RxCocoa (4.1.2):
+    - RxSwift (~> 4.0)
+  - RxDataSources (3.0.2):
+    - Differentiator (~> 3.0)
+    - RxCocoa (~> 4.0)
+    - RxSwift (~> 4.0)
+  - RxSwift (4.1.2)
+
+DEPENDENCIES:
+  - NSObject+Rx
+  - RxDataSources
+
+SPEC CHECKSUMS:
+  Differentiator: a87be69eba49ec4ab460c7671143ee3a9eececfd
+  NSObject+Rx: cbbc05e3cb3ad446cdbced3e00e39c9efaf02925
+  RxCocoa: d88ba0f1f6abf040011a9eb4b539324fc426843a
+  RxDataSources: cb7c31e652a87ebb919da45f716bbb87b3765f6b
+  RxSwift: e49536837d9901277638493ea537394d4b55f570
+
+PODFILE CHECKSUM: 9699c7a14b8be62ed8cd24bf5ab87e4888d07994
+
+COCOAPODS: 1.4.0

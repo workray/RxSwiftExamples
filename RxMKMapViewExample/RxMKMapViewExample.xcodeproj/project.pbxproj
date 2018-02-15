@@ -1,0 +1,766 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		19AD5C91F30DDD4719A2A50D /* Pods_RxMKMapViewExampleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C30DB7B5A66DE119D432287 /* Pods_RxMKMapViewExampleTests.framework */; };
+		1E0FE4DD20350CC200F3798B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FE4DC20350CC200F3798B /* AppDelegate.swift */; };
+		1E0FE4DF20350CC200F3798B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FE4DE20350CC200F3798B /* ViewController.swift */; };
+		1E0FE4E220350CC200F3798B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E0FE4E020350CC200F3798B /* Main.storyboard */; };
+		1E0FE4E420350CC200F3798B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1E0FE4E320350CC200F3798B /* Assets.xcassets */; };
+		1E0FE4E720350CC200F3798B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1E0FE4E520350CC200F3798B /* LaunchScreen.storyboard */; };
+		1E0FE4F220350CC200F3798B /* RxMKMapViewExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FE4F120350CC200F3798B /* RxMKMapViewExampleTests.swift */; };
+		1E0FE4FD20350CC300F3798B /* RxMKMapViewExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0FE4FC20350CC300F3798B /* RxMKMapViewExampleUITests.swift */; };
+		AF83D3F60781301F116AD979 /* Pods_RxMKMapViewExampleUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 50D8699056F0DB77320C9902 /* Pods_RxMKMapViewExampleUITests.framework */; };
+		FD9EC909CBD087D7C6E46F9C /* Pods_RxMKMapViewExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5CD414B4DA010F5822F3A636 /* Pods_RxMKMapViewExample.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1E0FE4EE20350CC200F3798B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E0FE4D120350CC200F3798B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E0FE4D820350CC200F3798B;
+			remoteInfo = RxMKMapViewExample;
+		};
+		1E0FE4F920350CC300F3798B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1E0FE4D120350CC200F3798B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1E0FE4D820350CC200F3798B;
+			remoteInfo = RxMKMapViewExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BE82FA3A48884A980509747 /* Pods-RxMKMapViewExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMKMapViewExample.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxMKMapViewExample/Pods-RxMKMapViewExample.debug.xcconfig"; sourceTree = "<group>"; };
+		1E0FE4D920350CC200F3798B /* RxMKMapViewExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RxMKMapViewExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E0FE4DC20350CC200F3798B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1E0FE4DE20350CC200F3798B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1E0FE4E120350CC200F3798B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1E0FE4E320350CC200F3798B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1E0FE4E620350CC200F3798B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1E0FE4E820350CC200F3798B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E0FE4ED20350CC200F3798B /* RxMKMapViewExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxMKMapViewExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E0FE4F120350CC200F3798B /* RxMKMapViewExampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxMKMapViewExampleTests.swift; sourceTree = "<group>"; };
+		1E0FE4F320350CC200F3798B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E0FE4F820350CC300F3798B /* RxMKMapViewExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RxMKMapViewExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1E0FE4FC20350CC300F3798B /* RxMKMapViewExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RxMKMapViewExampleUITests.swift; sourceTree = "<group>"; };
+		1E0FE4FE20350CC300F3798B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2147540C1844B6CE4C6B16AE /* Pods-RxMKMapViewExampleUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMKMapViewExampleUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxMKMapViewExampleUITests/Pods-RxMKMapViewExampleUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		47E6F751C7EC9C287F63ABC1 /* Pods-RxMKMapViewExampleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMKMapViewExampleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxMKMapViewExampleTests/Pods-RxMKMapViewExampleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		50D8699056F0DB77320C9902 /* Pods_RxMKMapViewExampleUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxMKMapViewExampleUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CD414B4DA010F5822F3A636 /* Pods_RxMKMapViewExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxMKMapViewExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		70AF27C50A1A4C7173F3B802 /* Pods-RxMKMapViewExampleUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMKMapViewExampleUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxMKMapViewExampleUITests/Pods-RxMKMapViewExampleUITests.release.xcconfig"; sourceTree = "<group>"; };
+		783C44C8B388ADB71B286729 /* Pods-RxMKMapViewExampleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMKMapViewExampleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxMKMapViewExampleTests/Pods-RxMKMapViewExampleTests.release.xcconfig"; sourceTree = "<group>"; };
+		97B9DF0C18B4CA5DF8F7B5EB /* Pods-RxMKMapViewExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxMKMapViewExample.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxMKMapViewExample/Pods-RxMKMapViewExample.release.xcconfig"; sourceTree = "<group>"; };
+		9C30DB7B5A66DE119D432287 /* Pods_RxMKMapViewExampleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxMKMapViewExampleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1E0FE4D620350CC200F3798B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD9EC909CBD087D7C6E46F9C /* Pods_RxMKMapViewExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0FE4EA20350CC200F3798B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				19AD5C91F30DDD4719A2A50D /* Pods_RxMKMapViewExampleTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0FE4F520350CC300F3798B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF83D3F60781301F116AD979 /* Pods_RxMKMapViewExampleUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1E0FE4D020350CC200F3798B = {
+			isa = PBXGroup;
+			children = (
+				1E0FE4DB20350CC200F3798B /* RxMKMapViewExample */,
+				1E0FE4F020350CC200F3798B /* RxMKMapViewExampleTests */,
+				1E0FE4FB20350CC300F3798B /* RxMKMapViewExampleUITests */,
+				1E0FE4DA20350CC200F3798B /* Products */,
+				5EA04316DE1AE519751B2D06 /* Pods */,
+				838F76204EF76B6A3D98C479 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1E0FE4DA20350CC200F3798B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E0FE4D920350CC200F3798B /* RxMKMapViewExample.app */,
+				1E0FE4ED20350CC200F3798B /* RxMKMapViewExampleTests.xctest */,
+				1E0FE4F820350CC300F3798B /* RxMKMapViewExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1E0FE4DB20350CC200F3798B /* RxMKMapViewExample */ = {
+			isa = PBXGroup;
+			children = (
+				1E0FE4DC20350CC200F3798B /* AppDelegate.swift */,
+				1E0FE4DE20350CC200F3798B /* ViewController.swift */,
+				1E0FE4E020350CC200F3798B /* Main.storyboard */,
+				1E0FE4E320350CC200F3798B /* Assets.xcassets */,
+				1E0FE4E520350CC200F3798B /* LaunchScreen.storyboard */,
+				1E0FE4E820350CC200F3798B /* Info.plist */,
+			);
+			path = RxMKMapViewExample;
+			sourceTree = "<group>";
+		};
+		1E0FE4F020350CC200F3798B /* RxMKMapViewExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				1E0FE4F120350CC200F3798B /* RxMKMapViewExampleTests.swift */,
+				1E0FE4F320350CC200F3798B /* Info.plist */,
+			);
+			path = RxMKMapViewExampleTests;
+			sourceTree = "<group>";
+		};
+		1E0FE4FB20350CC300F3798B /* RxMKMapViewExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1E0FE4FC20350CC300F3798B /* RxMKMapViewExampleUITests.swift */,
+				1E0FE4FE20350CC300F3798B /* Info.plist */,
+			);
+			path = RxMKMapViewExampleUITests;
+			sourceTree = "<group>";
+		};
+		5EA04316DE1AE519751B2D06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0BE82FA3A48884A980509747 /* Pods-RxMKMapViewExample.debug.xcconfig */,
+				97B9DF0C18B4CA5DF8F7B5EB /* Pods-RxMKMapViewExample.release.xcconfig */,
+				47E6F751C7EC9C287F63ABC1 /* Pods-RxMKMapViewExampleTests.debug.xcconfig */,
+				783C44C8B388ADB71B286729 /* Pods-RxMKMapViewExampleTests.release.xcconfig */,
+				2147540C1844B6CE4C6B16AE /* Pods-RxMKMapViewExampleUITests.debug.xcconfig */,
+				70AF27C50A1A4C7173F3B802 /* Pods-RxMKMapViewExampleUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		838F76204EF76B6A3D98C479 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5CD414B4DA010F5822F3A636 /* Pods_RxMKMapViewExample.framework */,
+				9C30DB7B5A66DE119D432287 /* Pods_RxMKMapViewExampleTests.framework */,
+				50D8699056F0DB77320C9902 /* Pods_RxMKMapViewExampleUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1E0FE4D820350CC200F3798B /* RxMKMapViewExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E0FE50120350CC300F3798B /* Build configuration list for PBXNativeTarget "RxMKMapViewExample" */;
+			buildPhases = (
+				6B91EF7D6A413C8FF191E041 /* [CP] Check Pods Manifest.lock */,
+				1E0FE4D520350CC200F3798B /* Sources */,
+				1E0FE4D620350CC200F3798B /* Frameworks */,
+				1E0FE4D720350CC200F3798B /* Resources */,
+				37A76347890013AA248C5311 /* [CP] Embed Pods Frameworks */,
+				7F0DE0A71B9E4D4EEAD4757A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RxMKMapViewExample;
+			productName = RxMKMapViewExample;
+			productReference = 1E0FE4D920350CC200F3798B /* RxMKMapViewExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1E0FE4EC20350CC200F3798B /* RxMKMapViewExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E0FE50420350CC300F3798B /* Build configuration list for PBXNativeTarget "RxMKMapViewExampleTests" */;
+			buildPhases = (
+				AB0A15D196C2158AE6A37822 /* [CP] Check Pods Manifest.lock */,
+				1E0FE4E920350CC200F3798B /* Sources */,
+				1E0FE4EA20350CC200F3798B /* Frameworks */,
+				1E0FE4EB20350CC200F3798B /* Resources */,
+				603118F2D8BA39DF01432E47 /* [CP] Embed Pods Frameworks */,
+				80667D34C6E82A22EE580530 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E0FE4EF20350CC200F3798B /* PBXTargetDependency */,
+			);
+			name = RxMKMapViewExampleTests;
+			productName = RxMKMapViewExampleTests;
+			productReference = 1E0FE4ED20350CC200F3798B /* RxMKMapViewExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1E0FE4F720350CC300F3798B /* RxMKMapViewExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1E0FE50720350CC300F3798B /* Build configuration list for PBXNativeTarget "RxMKMapViewExampleUITests" */;
+			buildPhases = (
+				4DEB7B4344E7EC93FFB3695C /* [CP] Check Pods Manifest.lock */,
+				1E0FE4F420350CC300F3798B /* Sources */,
+				1E0FE4F520350CC300F3798B /* Frameworks */,
+				1E0FE4F620350CC300F3798B /* Resources */,
+				94EB2B62D2CBC7946783009E /* [CP] Embed Pods Frameworks */,
+				463D83BCB168A4175FCAB99F /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1E0FE4FA20350CC300F3798B /* PBXTargetDependency */,
+			);
+			name = RxMKMapViewExampleUITests;
+			productName = RxMKMapViewExampleUITests;
+			productReference = 1E0FE4F820350CC300F3798B /* RxMKMapViewExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1E0FE4D120350CC200F3798B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = Mobdev125;
+				TargetAttributes = {
+					1E0FE4D820350CC200F3798B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					1E0FE4EC20350CC200F3798B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1E0FE4D820350CC200F3798B;
+					};
+					1E0FE4F720350CC300F3798B = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 1E0FE4D820350CC200F3798B;
+					};
+				};
+			};
+			buildConfigurationList = 1E0FE4D420350CC200F3798B /* Build configuration list for PBXProject "RxMKMapViewExample" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1E0FE4D020350CC200F3798B;
+			productRefGroup = 1E0FE4DA20350CC200F3798B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1E0FE4D820350CC200F3798B /* RxMKMapViewExample */,
+				1E0FE4EC20350CC200F3798B /* RxMKMapViewExampleTests */,
+				1E0FE4F720350CC300F3798B /* RxMKMapViewExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1E0FE4D720350CC200F3798B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0FE4E720350CC200F3798B /* LaunchScreen.storyboard in Resources */,
+				1E0FE4E420350CC200F3798B /* Assets.xcassets in Resources */,
+				1E0FE4E220350CC200F3798B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0FE4EB20350CC200F3798B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0FE4F620350CC300F3798B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37A76347890013AA248C5311 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxMKMapViewExample/Pods-RxMKMapViewExample-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxMKMapView/RxMKMapView.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxMKMapView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxMKMapViewExample/Pods-RxMKMapViewExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		463D83BCB168A4175FCAB99F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxMKMapViewExampleUITests/Pods-RxMKMapViewExampleUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4DEB7B4344E7EC93FFB3695C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxMKMapViewExampleUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		603118F2D8BA39DF01432E47 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxMKMapViewExampleTests/Pods-RxMKMapViewExampleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B91EF7D6A413C8FF191E041 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxMKMapViewExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7F0DE0A71B9E4D4EEAD4757A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxMKMapViewExample/Pods-RxMKMapViewExample-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80667D34C6E82A22EE580530 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxMKMapViewExampleTests/Pods-RxMKMapViewExampleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		94EB2B62D2CBC7946783009E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxMKMapViewExampleUITests/Pods-RxMKMapViewExampleUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB0A15D196C2158AE6A37822 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxMKMapViewExampleTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1E0FE4D520350CC200F3798B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0FE4DF20350CC200F3798B /* ViewController.swift in Sources */,
+				1E0FE4DD20350CC200F3798B /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0FE4E920350CC200F3798B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0FE4F220350CC200F3798B /* RxMKMapViewExampleTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1E0FE4F420350CC300F3798B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E0FE4FD20350CC300F3798B /* RxMKMapViewExampleUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1E0FE4EF20350CC200F3798B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E0FE4D820350CC200F3798B /* RxMKMapViewExample */;
+			targetProxy = 1E0FE4EE20350CC200F3798B /* PBXContainerItemProxy */;
+		};
+		1E0FE4FA20350CC300F3798B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1E0FE4D820350CC200F3798B /* RxMKMapViewExample */;
+			targetProxy = 1E0FE4F920350CC300F3798B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1E0FE4E020350CC200F3798B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E0FE4E120350CC200F3798B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1E0FE4E520350CC200F3798B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1E0FE4E620350CC200F3798B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1E0FE4FF20350CC300F3798B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1E0FE50020350CC300F3798B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1E0FE50220350CC300F3798B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0BE82FA3A48884A980509747 /* Pods-RxMKMapViewExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RxMKMapViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobdev.RxMKMapViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1E0FE50320350CC300F3798B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 97B9DF0C18B4CA5DF8F7B5EB /* Pods-RxMKMapViewExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RxMKMapViewExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobdev.RxMKMapViewExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		1E0FE50520350CC300F3798B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47E6F751C7EC9C287F63ABC1 /* Pods-RxMKMapViewExampleTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RxMKMapViewExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobdev.RxMKMapViewExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxMKMapViewExample.app/RxMKMapViewExample";
+			};
+			name = Debug;
+		};
+		1E0FE50620350CC300F3798B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 783C44C8B388ADB71B286729 /* Pods-RxMKMapViewExampleTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RxMKMapViewExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobdev.RxMKMapViewExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RxMKMapViewExample.app/RxMKMapViewExample";
+			};
+			name = Release;
+		};
+		1E0FE50820350CC300F3798B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2147540C1844B6CE4C6B16AE /* Pods-RxMKMapViewExampleUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RxMKMapViewExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobdev.RxMKMapViewExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RxMKMapViewExample;
+			};
+			name = Debug;
+		};
+		1E0FE50920350CC300F3798B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 70AF27C50A1A4C7173F3B802 /* Pods-RxMKMapViewExampleUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = RxMKMapViewExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.mobdev.RxMKMapViewExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RxMKMapViewExample;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1E0FE4D420350CC200F3798B /* Build configuration list for PBXProject "RxMKMapViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E0FE4FF20350CC300F3798B /* Debug */,
+				1E0FE50020350CC300F3798B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E0FE50120350CC300F3798B /* Build configuration list for PBXNativeTarget "RxMKMapViewExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E0FE50220350CC300F3798B /* Debug */,
+				1E0FE50320350CC300F3798B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E0FE50420350CC300F3798B /* Build configuration list for PBXNativeTarget "RxMKMapViewExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E0FE50520350CC300F3798B /* Debug */,
+				1E0FE50620350CC300F3798B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1E0FE50720350CC300F3798B /* Build configuration list for PBXNativeTarget "RxMKMapViewExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1E0FE50820350CC300F3798B /* Debug */,
+				1E0FE50920350CC300F3798B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1E0FE4D120350CC200F3798B /* Project object */;
+}

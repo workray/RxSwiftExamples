@@ -1,0 +1,6 @@
+framework module Pods_RxMKMapViewExampleTests {
+  umbrella header "Pods-RxMKMapViewExampleTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

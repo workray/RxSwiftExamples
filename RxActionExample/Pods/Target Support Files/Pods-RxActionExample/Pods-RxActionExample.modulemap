@@ -1,0 +1,6 @@
+framework module Pods_RxActionExample {
+  umbrella header "Pods-RxActionExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
